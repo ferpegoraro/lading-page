@@ -1,0 +1,12 @@
+#hero{
+    text-align: center;
+    & p{
+        font: var(--fw-md) var(--fs-lg)/1.4rem var(--ff-sans);
+        color: var(--text-color-secondary);
+    }
+    
+    & .buttons{
+        justify-content: center;
+        margin-top: 2rem;  
+    }
+}
